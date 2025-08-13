@@ -1,0 +1,11 @@
+streamlit==1.37.1
+transformers==4.42.4
+accelerate>=0.33.0
+torch>=2.2.0; platform_system != "Darwin" or platform_machine != "arm64"
+torch>=2.2.0; platform_system == "Darwin" and platform_machine == "arm64" and python_version < "3.12"
+sentencepiece>=0.2.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+readability-lxml>=0.8.1
+requests>=2.31.0
+pandas>=2.2.0
